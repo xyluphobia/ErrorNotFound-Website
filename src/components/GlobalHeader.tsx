@@ -2,11 +2,12 @@ import "./GlobalHeader.css"
   
 // Header to be used on each page
 function GlobalHeader() {
-  let header = document.getElementById('App-header');
+  const header = document.getElementById('App-header');
 
-  document.addEventListener('scroll', function() {
+  document.body.addEventListener('scroll', function() {
     if (header != null) {
-      let scrollPos = window.scrollY;
+      console.log("help");
+      const scrollPos = window.scrollY;
       
       if ( scrollPos > 50 ) {  // The int here is sensitivity, lower = more sensitive;
         header.style.backgroundColor = "black";
@@ -19,9 +20,13 @@ function GlobalHeader() {
   return (
     <>
       <header id="App-header" className="header">
-        <div className="header-content-wrapper">
-          
-        </div>
+        <nav className="header-content-wrapper">
+            <ul>
+              <li><a className="nav-logo"><img></img></a></li>
+              <li><a>AHHJ</a></li>
+              <li><a>AHHHHHHHHHHH</a></li>
+            </ul>
+        </nav>
       </header>
     </>
   )

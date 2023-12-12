@@ -14,3 +14,16 @@
     margin: 0 auto;
     background-color: aliceblue;
 }
+
+.header-content-wrapper ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.nav-logo {
+    width: 120px;
+    height: 100%;
+    background-color: orange;
+}
