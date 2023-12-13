@@ -4,7 +4,7 @@ import "./GlobalHeader.css"
 function GlobalHeader() {
   const header = document.getElementById('App-header');
 
-  document.body.addEventListener('scroll', function() {
+  document.addEventListener('scroll', function() {
     if (header != null) {
       console.log("help");
       const scrollPos = window.scrollY;

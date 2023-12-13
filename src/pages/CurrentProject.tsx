@@ -3,7 +3,7 @@ import PROJECT_Rougelike from './PROJECT_Rougelike.tsx'
 
 // Current project page, used to forward the current project to main.tsx,
 // Doing this keeps main.tsx clear from clutter and is more readable.
-function App() {
+function CurrentProject() {
     return (
       <>
         <React.StrictMode>
@@ -13,4 +13,4 @@ function App() {
     )
   }
 
-  export default App
+  export default CurrentProject
